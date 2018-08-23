@@ -1,19 +1,5 @@
 #斐波那契数列
-#自身调用自身
-#知道A1 = 1 ，A2 = 1
-#def xianshu(num):
-	#if 0< num < 3:
-	#	return 1
-	#elif num > 2:
-	#	return  xianshu(num - 1)+xiangshu(num - 2)
-
-#print('--------斐波那契数列--------------')
-#a = input("请输入项数")
-#print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
-#x = int(a)
-#y = xianshu(x)
-#print(y)
-#到底是哪错了，啊啊啊
+#使用迭代
 
 '''				#多行注释
 def fab(n):
@@ -43,7 +29,7 @@ if fanhuizhi != -1:
 	
 	
 	
-#
+
 def fab(x):
 	x1 = 1
 	x2 = 1
