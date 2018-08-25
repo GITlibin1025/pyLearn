@@ -1,0 +1,81 @@
+字典（映射类型）
+标志{ }
+字典名 = { ‘变量’：‘值’， ……}
+或者用字典函数
+字典名 = dict（（x，y），（o，o））
+或者是用关键字参数
+字典名 = dict（x=‘y’，c = ‘u’）
+
+添加字典
+字典名[ ' x'] = 'y'
+
+字典的内置方法
+
+访问字典的三种方法
+>>>dict1 = dict1.fromkeys(range(32),'赞')
+>>>就会输出32个赞
+
+>>>for eachKey in dict1.keys():
+>>>print eachKey
+会打印所有的key，也就是字典的前一项
+>>>for eachValue in dict1.values():
+>>>print eachValues
+会打印所有的Values，也就是字典的第二项
+>>>for eachItem in dict1.item():
+>>>print eachItem
+会打印所有的项
+
+dict1[索引 ]
+dict1.get（不存在的索引）
+会什么也不打印
+
+判断是否键（key）是否存在
+>>>1 in dict1
+True
+
+创建空字典
+推荐使用 dict1.clear()
+
+查询地址用id（需要查询的）
+
+dict1.pop（key）
+弹出值
+
+dict1.popitem()
+随机弹出一个项
+
+dict1.setdefault（‘key’）/（key：‘values’）
+若找不到添加一个 
+
+用b来更新a
+a.update(b)
+
+
+
+-------------------------------------
+创建集合
+a = {   }
+或者
+集合名 = set（[       各种元素     ]）
+它满足集合性质，会自动剔除重复元素 
+
+
+清除列表中的重复项
+num1 = [1,2,3,4,4]
+temp = [ ]
+for each in num1:
+	if each not in temp
+		temp.append(each)
+
+利用集合的性质
+num1 = [1,2,3,4,4]
+temp = list(set(num1))
+
+
+不可变集合frozen
+>>>num3 = frozen([1,2,3])
+
+-----------------------------------------
+打开文件
+f = open('d:\\recode')
+
